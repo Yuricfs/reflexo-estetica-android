@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reflexo Estética Automotiva"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1A1A1A"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tabela de Serviços 2026.1"
+            android:textStyle="italic"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnLavagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lavagem Técnica Detalhada"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#007BFF"/>
+
+        <Button
+            android:id="@+id/btnPolimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Polimento Comercial / Técnico"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#007BFF"/>
+
+        <Button
+            android:id="@+id/btnVitrificacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vitrificação de Pintura"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#28A745"/>
+
+        <Button
+            android:id="@+id/btnHigienizacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Higienização Interna Completa"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#007BFF"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnContato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Falar com Especialista (WhatsApp)"
+            android:backgroundTint="#25D366"/>
+
+    </LinearLayout>
+</ScrollView>
